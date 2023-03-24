@@ -1,0 +1,13 @@
+2023-03-24 13:55:15 INFO  Waitings:175 - TOTAL TIME that LANDING PAGE page was loading: 0.072 seconds.
+2023-03-24 13:55:16 INFO  ErrorTextValidation:77 - SUBMIT FORM button was clicked.
+2023-03-24 13:55:16 INFO  Waitings:119 - TOTAL TIME that the Updated 'FORM WITH VALIDATIONS' web-element was loading: 0.049 seconds.
+2023-03-24 13:55:19 WARN  ErrorTextValidation:101 - CITY field has not been filled in! It will be filled in automatically.
+2023-03-24 13:55:19 INFO  ErrorTextValidation:106 - CITY input field was SUCCESSFULLY filled with the value 'Hamburg'!
+2023-03-24 13:55:20 WARN  ErrorTextValidation:123 - STATE field has not been filled in! It will be filled in automatically.
+2023-03-24 13:55:20 INFO  ErrorTextValidation:128 - STATE input field was SUCCESSFULLY filled with the value 'Germany'!
+2023-03-24 13:55:21 WARN  ErrorTextValidation:145 - ZIP field has not been filled in! It will be filled in automatically.
+2023-03-24 13:55:21 INFO  ErrorTextValidation:150 - ZIP input field was SUCCESSFULLY filled with the value '228534'!
+2023-03-24 13:55:22 WARN  ErrorTextValidation:167 - The check-box AGREE WITH TERMS AND CONDITIONS has not been selected! It will be selected automatically.
+2023-03-24 13:55:22 INFO  ErrorTextValidation:170 - The check-box AGREE WITH TERMS AND CONDITIONS has not been selected.
+2023-03-24 13:55:26 INFO  ErrorTextValidation:188 - SUBMIT FORM button was clicked.
+2023-03-24 13:55:26 INFO  Waitings:119 - TOTAL TIME that the Updated 'FORM WITH VALIDATIONS' web-element was loading: 0.043 seconds.

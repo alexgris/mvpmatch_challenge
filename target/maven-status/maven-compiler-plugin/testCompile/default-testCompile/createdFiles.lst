@@ -1,0 +1,11 @@
+ax\generic\Graphics_Screenshots.class
+ax\generic\Waitings.class
+ax\generic\DataproviderClass.class
+ax\generic\FileProcessing.class
+com\pages\AddItemTable.class
+com\pages\Locator_DocCompare.class
+com\pages\PostProcessing.class
+com\pages\LandingPage.class
+org\project\Test_Cases.class
+init\settings\SeleniumSetUp.class
+init\settings\PageObject.class

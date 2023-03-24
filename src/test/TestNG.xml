@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestTask_AGrischenko_Suite" verbose="1" thread-count="1" parallel="none">
+
+    <!-- TARGET SYSTEM/CLIENT PARAMETERS - Please, enter required parameteres here  -->
+    <parameter name="FirstName" value="TestName"/>
+    <parameter name="LastName" value="TestSurname"/>
+    <parameter name="PhoneNumber" value="+4915161718999"/>
+    <parameter name="UserName" value="Centurion"/>
+    <parameter name="Email" value="test_email@yahoo.co.uk"/>
+    <parameter name="AboutYourself" value="SQA Web UI Test Automation Engineer i.e. Selenium + Java + TestNG."/>
+    <parameter name="Password" value="testPWD123"/>
+    <parameter name="ConfirmPassword" value="testPWD123"/>
+
+    <parameter name="City" value="Hamburg"/>
+    <parameter name="State" value="Germany"/>
+    <parameter name="Zip" value="228534"/>
+
+
+    <!-- EDITABLE ENTRY PARAMETERS - Please, enter required parameteres here  -->
+    <parameter name="name_FunctionModule" value="/ICO/MO_IF_IDOC_RECEIVE"/>
+
+
+    <test name="TestTask_AGrischenko" preserve-order="true">
+        <parameter name="browser" value="chrome" />
+
+
+        <classes>
+
+            <class name="org.project.Test_Cases">
+
+                <methods>
+                    <include name="firstTest_Testing"/>
+                    <include name="secondTest_Testing"/>
+                    <include name="thirdTest_Testing"/>
+
+                </methods>
+
+            </class>
+
+        </classes>
+
+    </test>
+
+</suite>
